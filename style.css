@@ -1,0 +1,19 @@
+#flex-logo{
+    display: flex;
+    flex-direction: row reverse;
+}
+.flex-header{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#imagen{
+    width: 500px;
+}
+#impresion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+}
