@@ -36,9 +36,13 @@
     font-size: x-large;
 }
 #impresion tr:nth-child(even){background-color: #f2f2f2;}
-.flex-tabla{
+.tabla{
     display: flex;
     flex-direction: row;
+    width: 50%;
     margin-right: 450px;
     margin-left: 450px;
+}
+.anchura{
+    width: 30%;
 }
