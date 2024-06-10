@@ -20,7 +20,7 @@ function acmeRegalo(clientes) {
   console.log("");
 }
 acmeRegalo([
-  "Juan Ramos",
+  "grupete",
   "Pedro Sanchez",
   "Begoña Gómez",
   "Frederick Williams",
