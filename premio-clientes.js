@@ -22,7 +22,7 @@ function acmeRegalo(clientes) {
 acmeRegalo([
   "grupete",
   "gato",
-  "Begoña Gómez",
+  "miau",
   "Frederick Williams",
   "Roberta Williams",
   "Paco Porras",
