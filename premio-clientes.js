@@ -1,25 +1,22 @@
 function acmeRegalo(clientes) {
   var premioNavidad;
   console.log("");
+
   for (i = 0; i <= clientes.length - 1; i++) {
     var cuantia = Math.floor(Math.random() * 15000);
     if (cuantia > 9999) {
-      premioNavidad = "Cesta de navidad con jamón ";
-      console.log(
-        clientes[i] + ": " + cuantia + " eur " + "(" + premioNavidad + ")"
-      );
-    } else if (cuantia >= 5000 && cuantia <= 9999) {
-      premioNavidad = "Cesta de navidad simplona ";
-      console.log(
-        clientes[i] + ": " + cuantia + " eur " + "(" + premioNavidad + ")"
-      );
+      premioNavidad = "Cesta de navidad con jamón";
+    } else if (cuantia >= 5000) {
+      premioNavidad = "Cesta de navidad simplona";
     } else {
-      premioNavidad = "Carta y pegatina de Acme ";
-      console.log(
-        clientes[i] + ": " + cuantia + " eur " + "(" + premioNavidad + ")"
-      );
+      premioNavidad = "Carta y pegatina de Acme";
     }
+
+    console.log(
+      clientes[i] + ": " + cuantia + " eur (" + premioNavidad + ")"
+    );
   }
+  
   console.log("");
 }
 acmeRegalo([
