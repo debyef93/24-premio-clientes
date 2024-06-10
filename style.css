@@ -1,48 +1,50 @@
 #flex-logo {
-    display: flex;
-    flex-direction: row;
-    height: 300px;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
 }
 
 .flex-header {
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: space-evenly;
 }
-#imagen{
-    height: 400px;
+#imagen {
+  height: 400px;
 }
 
 #impresion th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #04AA6D;
-    color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
 }
 
 #impresion td,
 #impresion th {
-    border: 1px solid #ddd;
-    padding: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
 #impresion {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: x-large;
 }
-#impresion tr:nth-child(even){background-color: #f2f2f2;}
-.tabla{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    margin-right: 450px;
-    margin-left: 450px;
+#impresion tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
-.anchura{
-    width: 30%;
+.tabla {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-right: 450px;
+  margin-left: 450px;
+}
+.anchura {
+  width: 30%;
 }
