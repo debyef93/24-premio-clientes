@@ -21,7 +21,7 @@ function acmeRegalo(clientes) {
 }
 acmeRegalo([
   "grupete",
-  "Pedro Sanchez",
+  "gato",
   "Begoña Gómez",
   "Frederick Williams",
   "Roberta Williams",
